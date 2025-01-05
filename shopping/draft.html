@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p236 */
+        body {
+            height: 5000px;
+        }
+        .box1 {
+            /* position: relative;
+            top: 100px;
+            left: 200px; */
+            width: 800px;
+            height: 1400px;
+            background-color: red;
+            margin: 0 auto;
+        }
+        .box2 {
+            position: absolute;
+            left: 100px;
+            bottom: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        .dj {
+            position: fixed;
+            left: 50%;
+            margin-left: 400px;
+            top: 100px;
+            right: 20px;
+        }
+        .nav {
+            position: sticky;
+            top: 0px;
+            width: 500px;
+            height: 50px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="box1">
+        <div class="box2">
+
+        </div>
+    </div>
+    <div class="dj">
+        <img src="./images/wx_cz.jpg" alt="">
+    </div>
+    <script>
+        const data = [
+            {
+                name: 'hou',
+                age: 36,
+                gender: 'male'
+            },
+            {
+                name: 'kuang',
+                age: 35,
+                gender: 'male'
+            },
+            {
+                name: 'lin',
+                age: 37,
+                gender: 'male'
+            }
+        ]
+        localStorage.setItem(data, JSON.stringify(data))
+    </script>
+</body>
+</html>

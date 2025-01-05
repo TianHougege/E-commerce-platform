@@ -1,0 +1,479 @@
+.de_container {
+    margin-top: 25px;
+}
+.crush {
+    height: 22px;
+    
+}
+.crush ul li {
+    float: left;
+}
+.crush ul li a {
+    margin: 0 18px;
+    font-size: 12px;
+}
+.crush ul li:first-child a {
+    margin: 0 18px 0 0;
+}
+.product_intro {
+    margin-bottom: 30px;
+}
+.preview_left {
+    width: 400px;
+    height: 590px;
+}
+.pimg {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 400px;
+}
+.pimg img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.de_choice {
+    position:relative;
+    height: 60px;
+    margin-top: 60px;
+}
+.narrow_pre, .narrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+.narrow_pre {
+    left: 0;
+    background: url(/images/arrow-prev.png) no-repeat;
+}
+.narrow_next {
+    right: 0;
+    background: url(/images/arrow-next.png) no-repeat;
+}
+.choice_img {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+.choice_img li {
+    float: left;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.choice_img li.current {
+    border-color: #df3033;
+}
+.preview_right {
+    width: 718px;
+}
+.sku_name {
+    font-size: 16px;
+    font-weight: 700;
+}
+.sku_buy {
+    height: 32px;
+    font-size: 12px;
+}
+.summary dt, 
+.summary dd {
+    float: left;
+}
+.summary dl {
+    overflow: hidden;
+}
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 32px;
+}
+.p_price, 
+.p_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.hmuch {
+    font-size: 24px;
+    color: #e12228;
+}
+.p_price dd a {
+    color: #e12228;
+}
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.remark em {
+    color: blue;
+}
+.p_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #df3033;
+    color: #ffffff;
+}
+.p_promotion dd {
+    width: 450px;
+    line-height: 30px;
+}
+.p_support dd {
+    line-height: 30px;
+    vertical-align: middle;
+}
+.transition {
+    border-bottom: 1px solid #ccc;
+}
+.transition dd {
+    line-height: 30px;
+    vertical-align: bottom;
+}
+.tail::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+.c_color {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.p_choice dl {
+    overflow: hidden;
+}
+.p_choice dt,
+.p_choice dd {
+    float: left;
+}
+.p_choice dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 43px;
+}
+.p_choice dd {
+    margin-left: 10px;
+}
+.c_color dd a {
+    float: left;
+    margin-right: 5px;
+    width: 85px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid transparent;
+}
+.c_color a.b_red {
+    border-color: #df3033;
+}
+.c_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    margin: 0 10px;
+    background-color: pink;
+}
+.c_amount input {
+    width: 35px;
+    height: 46px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.a_add,
+.a_reduce {
+    position: absolute;
+    right: 0;
+    width: 17px;
+    height: 24px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+.a_add {
+    top: 0;
+}
+.a_reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+.p_car {
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 46px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* 相关分类部分 */
+.product_content {
+    margin-bottom: 50px;
+}
+.recommend {
+    width: 210px;
+    margin-right: 12px;
+    border: 1px solid #f1f1f1;
+}
+.table_classic {
+    position: relative;
+    width: 210px;
+    height: 34px;
+    background-color: pink;
+}
+.table_classic ul li {
+    float: left;
+    width: 105px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+.table_classic ul li:last-child {
+    position: absolute;
+    right:0;
+}
+.table_classic .current {
+    border: 1px solid transparent;
+    background-color: #fff;
+    color:#df3033;
+}
+.other table {
+    width: 185px;
+    margin: 0 auto;
+}
+.other table tr th {
+    height: 30px;
+    font-size: 12px;
+    border-bottom: 2px dotted #ededed;
+}
+.other_pro ul {
+    margin: 20px 20px 20px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.other_pro ul:first-child {
+    margin: 20px 20px 0px 10px;
+}
+.other_pro ul:first-child li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.other_pro ul li {
+    margin: 15px 0;
+}
+.other_pro li h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400px;
+}
+.other_pro li p {
+    margin: 10px 0;
+    font-weight: 700;
+}
+.other_pro li a {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+.p_picture {
+    width: 978px;
+    /* height: 800px; */
+}
+.adorn {
+    height: 303px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+.adorn_list {
+    height: 40px;
+    background-color: #f1f1f1;
+}
+.adorn_list ul li {
+    width: 87px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #c81623;
+    text-align: center;
+}
+.adorn_list ul li a {
+    color:#ffffff;
+}
+.adorn_chioce {
+    height: 50px;
+    margin: 12px 10px;
+}
+.adorn_chioce ul li {
+    float: left;
+    margin-right: 42px;
+}
+.pic_choice {
+    margin: 12px 0;
+    text-align: center;
+}
+.iph_pic {
+    width: 133px;
+    height: 133px;
+    line-height: 133px;
+    text-align: center;
+    border: 1px solid #e12228;
+}
+.iph_pic1 {
+    width: 133px;
+    height: 133px;
+    line-height: 133px;
+    text-align: center;
+}
+.pic_choice ul li {
+    float: left;
+    margin: 0 5px;
+    width: 133px;
+    height: 168px;
+}
+.pic_choice ul li:nth-child(2){
+    width: 12px;
+    line-height: 158px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pic_choice ul li:last-child a {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.pic_choice ul li i {
+    color: #e12228;
+    font-weight: 500;
+    text-align: center;
+}
+.p_car1 {
+    float: left;
+    width: 120px;
+    height: 46px;
+    background-color: #c81623;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 46px;
+    color: #ffffff;
+    text-align: center;
+}
+.iphone_serve {
+    height: 40px;
+    background-color: #f1f1f1;
+}
+.iphone_serve ul li {
+    float: left;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.iphone_serve ul li a.active {
+    display: block;
+    width: 80px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #c81623;
+    color: #ffffff;
+}
+.parameters {
+    position: relative;
+    margin: 23px 0 20px 21px;
+    height: 240px;
+}
+.parameters .para_text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.para_text .item {
+    display: none;
+}
+.para_text .item.active {
+    display: block;
+}
+.parameters .more_pro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.parameters .more_pro p::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+/* 限时优惠倒计时 */
+.countdown {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #c81623;
+}
+.next {
+    font-size: 15px;
+    color: #fff;
+    margin: 15px 0;
+    text-align: center;
+}
+.discount {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.countdown .clock {
+    width: 142px;
+    margin: 15px auto 0;
+    text-align: center;
+}
+.countdown .clock span,
+.countdown .clock i {
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 0px 4px;
+    padding: 0 4px;
+    line-height: 34px;
+    font-size: 20px;
+}
+.countdown .clock span {
+    border-radius: 2px;
+    color: #fff;
+    background-color: #303430;
+}
+.countdown .clock i {
+    color: #fff;
+    font-weight: 700;
+}
+.countdown .miaosha-dibu {
+    height: 50px;
+    margin: 80px 0 0 0;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.countdown .kill-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: black;
+    font-size: 10px;
+    border: 1px solid #fff;
+
+}
